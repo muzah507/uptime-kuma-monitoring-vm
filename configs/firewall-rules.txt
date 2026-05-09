@@ -1,0 +1,52 @@
+# ==========================================
+# UFW FIREWALL RULES
+# ==========================================
+
+# Reset Existing Rules
+sudo ufw reset
+
+# Default Policies
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# ==========================================
+# SSH ACCESS
+# ==========================================
+
+# Allow SSH
+sudo ufw allow 22/tcp
+
+# Optional: Custom SSH Port
+# sudo ufw allow 2222/tcp
+
+# ==========================================
+# UPTIME KUMA DASHBOARD
+# ==========================================
+
+# Allow Uptime Kuma Web UI
+sudo ufw allow 3001/tcp
+
+# ==========================================
+# OPTIONAL SERVICES
+# ==========================================
+
+# HTTP
+# sudo ufw allow 80/tcp
+
+# HTTPS
+# sudo ufw allow 443/tcp
+
+# WireGuard VPN
+# sudo ufw allow 51820/udp
+
+# ==========================================
+# ENABLE FIREWALL
+# ==========================================
+
+sudo ufw enable
+
+# ==========================================
+# VERIFY STATUS
+# ==========================================
+
+sudo ufw status verbose

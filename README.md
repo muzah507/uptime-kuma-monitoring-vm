@@ -62,3 +62,43 @@ Unlike basic all-in-one homelab setups, this project uses a dedicated monitoring
 | Network |	Bridged |
 
 This setup is lightweight and suitable for old laptops or mini PCs.
+
+---
+
+# ✨ Features
+
+## 🔍 Monitoring Capabilities
+
+- ICMP Ping Monitoring
+- HTTP/HTTPS Monitoring
+- TCP Port Monitoring
+- Service Availability Tracking
+- Network Visibility Monitoring
+
+---
+
+## 🐳 Infrastructure
+
+- Dockerized Deployment
+- Persistent Volume Storage
+- Lightweight Resource Usage
+- Automatic Container Restart
+- Dedicated Monitoring VM
+
+---
+
+## 🔔 Notifications
+
+- Telegram Alert Integration
+- Downtime Notifications
+- Recovery Notifications
+
+---
+
+## 🛡️ Reliability
+
+- Isolated Monitoring Environment
+- Simple Backup Strategy
+- Easy Scalability
+- Clean Infrastructure Separation
+
